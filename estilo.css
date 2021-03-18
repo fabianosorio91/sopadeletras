@@ -1,0 +1,49 @@
+#sopa{
+    margin: 0%;
+    border: 1px solid rgb(0, 255, 42);
+
+}
+
+#contenedor{
+    margin: auto;
+    width: 460px;
+    height: 460px;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(147, 151, 155, 0.685);
+
+}
+
+.caja{
+    margin: 3px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    box-shadow: 0 0 11px; rgba(0,0,0,0.3);
+    border-radius: 5px;
+    float: left;
+}
+h1{
+    text-align: center;
+    background-color: seagreen;
+    
+}
+h2{
+    
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+h3{
+    
+    text-align: center;
+    background-color: rgb(65, 89, 192);
+}
+
+.lista{
+    height: 50%;
+    width: 50%;
+    
+}
