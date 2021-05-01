@@ -1,8 +1,13 @@
 #sopa{
-    margin: 0%;
-    border: 1px solid rgb(0, 255, 42);
+    margin: auto;
+    text-align: center;
 
 }
+.boton{
+    text-align: center;
+    
+}
+
 
 #contenedor{
     margin: auto;
@@ -11,9 +16,13 @@
     padding: 20px;
     border-radius: 10px;
     overflow: hidden;
-    background-color: rgba(147, 151, 155, 0.685);
+    background-color: rgba(36, 146, 141, 0.623);
 
 }
+.body{
+    background-color: blue;
+}
+
 
 .caja{
     margin: 3px;
@@ -21,29 +30,67 @@
     height: 45px;
     line-height: 45px;
     text-align: center;
-    box-shadow: 0 0 11px; rgba(0,0,0,0.3);
+    box-shadow: 0 0 11px rgba(0,0,0,0.3);
     border-radius: 5px;
     float: left;
+
 }
+
+.Resolver{
+    color: rgb(255, 225, 205);
+    background-color: rgb(224, 69, 30);
+}
+
+.resaltar{
+    color: white;
+    background-color: rgb(241, 76, 11);
+}
+
+
+
 h1{
-    text-align: center;
-    background-color: seagreen;
-    
+    text-align: center;    
 }
-h2{
+  
+ ul {
+      list-style-type: none;
+      text-align: center;
+    }
     
-    text-align: center;
-    background-color: yellowgreen;
+li {
+      background-color: #3710638e;
+      border: #3d3a35 2px solid;
+      display: inline;
+      margin-right: 10px;
+      text-align: center;
+    }
+
+ a {
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+   
+  }
+
+
+.fondo{
+    background-image: url("https://previews.123rf.com/images/andreacrisante/andreacrisante1503/andreacrisante150300043/38740250-la-ca%C3%ADda-de-las-letras-en-el-piso-de-madera.jpg");
+    background-size: cover;
 }
 
-h3{
-    
-    text-align: center;
-    background-color: rgb(65, 89, 192);
-}
 
-.lista{
-    height: 50%;
-    width: 50%;
-    
+header {
+    width: 100%;
+    height: 35px;
+    background: #60c3c3; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,hsla(161, 61%, 46%, 0.616),#3d6e49), url("https://previews.123rf.com/images/andreacrisante/andreacrisante1503/andreacrisante150300043/38740250-la-ca%C3%ADda-de-las-letras-en-el-piso-de-madera.jpg");
+    background: linear-gradient(to right,hsla(161, 61%, 46%, 0.466),#8360c3), url("https://previews.123rf.com/images/andreacrisante/andreacrisante1503/andreacrisante150300043/38740250-la-ca%C3%ADda-de-las-letras-en-el-piso-de-madera.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+  
+  .dome {
+    margin:0;
 }
